@@ -1,6 +1,6 @@
 name: vclibs
 description: Let your flutter windows apps include vclibs.
-version: 0.0.1
+version: 0.1.0
 homepage: https://github.com/leanflutter/vclibs
 
 environment:
