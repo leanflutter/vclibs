@@ -18,12 +18,13 @@ set(PLUGIN_NAME "vclibs_plugin")
 
 # VCLibs
 set(VC_LIBS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/VCLibs/x64")
+set(VC_LIBS_VCRUNTIME140_1 "${VC_LIBS_DIR}/vcruntime140_1.dll")
 if(NOT ${FLUTTER_TARGET_PLATFORM} STREQUAL "windows-x64")
   set(VC_LIBS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/VCLibs/arm64")
+  set(VC_LIBS_VCRUNTIME140_1 "")
 endif()
 set(VC_LIBS_MSVCP140 "${VC_LIBS_DIR}/msvcp140.dll")
 set(VC_LIBS_VCRUNTIME140 "${VC_LIBS_DIR}/vcruntime140.dll")
-set(VC_LIBS_VCRUNTIME140_1 "${VC_LIBS_DIR}/vcruntime140_1.dll")
 
 # Any new source files that you add to the plugin should be added here.
 list(APPEND PLUGIN_SOURCES
