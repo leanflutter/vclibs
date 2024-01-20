@@ -6,9 +6,9 @@
 
 #include "generated_plugin_registrant.h"
 
-#include <vclibs/vclibs_plugin.h>
+#include <vclibs/vclibs_plugin_c_api.h>
 
 void RegisterPlugins(flutter::PluginRegistry* registry) {
-  VclibsPluginRegisterWithRegistrar(
-      registry->GetRegistrarForPlugin("VclibsPlugin"));
+  VclibsPluginCApiRegisterWithRegistrar(
+      registry->GetRegistrarForPlugin("VclibsPluginCApi"));
 }

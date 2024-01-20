@@ -18,9 +18,9 @@ Let your flutter windows apps include vclibs.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [vclibs](#vclibs)
-	- [Quick Start](#quick-start)
-		- [Installation](#installation)
-	- [License](#license)
+  - [Quick Start](#quick-start)
+    - [Installation](#installation)
+  - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -32,17 +32,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  vclibs: ^0.1.0
-```
-
-Or
-
-```yaml
-dependencies:
-  vclibs:
-    git:
-      url: https://github.com/leanflutter/vclibs.git
-      ref: main
+  vclibs: ^0.1.1
 ```
 
 ## License
