@@ -32,7 +32,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  vclibs: ^0.1.1
+  vclibs: ^0.1.3
 ```
 
 ## License
